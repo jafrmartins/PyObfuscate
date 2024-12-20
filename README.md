@@ -1,4 +1,4 @@
-# PyObfuscate
+# PySimpleObfuscate
 **_The Easiest Way to Encrypt your .py files_**
 
 ## Installation to Local Folder using _PIP_
@@ -6,19 +6,19 @@
 ### Linux / MacOS
 
 ```console
-user@machine:~$ pip install ./PyObfuscate --upgrade -t ~/.local/lib/<PYTHON>/site-packages/PyObfuscate
-user@machine:~$ export PATH="~/.local/lib/<PYTHON>/site-packages/PyObfuscate/bin:$PATH"
+user@machine:~$ pip install ./PySimpleObfuscate --upgrade -t ~/.local/lib/<PYTHON>/site-packages/PyObfuscate
+user@machine:~$ export PATH="~/.local/lib/<PYTHON>/site-packages/PySimpleObfuscate/bin:$PATH"
 ```
 
 ### Windows
 ```console
-user@machine:~$ pip install ./PyObfuscate --upgrade -t ~/.local/lib/<PYTHON>/site-packages/PyObfuscate
+user@machine:~$ pip install ./PySimpleObfuscate --upgrade -t ~/.local/lib/<PYTHON>/site-packages/PySimpleObfuscate
 ```
 
 ## CLI Usage
 ```console
 user@machine:~$ pyobfuscate --help
-usage: PyObfuscate [-h] SRC DEST MSG
+usage: PySimpleObfuscate [-h] SRC DEST MSG
 
 A simple python obfuscator
 
@@ -33,7 +33,7 @@ options:
 
 ## API Usage
 ```python
-from PyObfuscate.lib.framework import encrypt_file, encrypt_source, cyphers
+from PySimpleObfuscate.lib.framework import encrypt_file, encrypt_source, cyphers
 
 src = "/path/to/file.py"
 dest = "/path/to/dest.py"
