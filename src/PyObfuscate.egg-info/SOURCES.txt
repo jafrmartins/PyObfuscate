@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/PyObfuscate.egg-info/PKG-INFO
+src/PyObfuscate.egg-info/SOURCES.txt
+src/PyObfuscate.egg-info/dependency_links.txt
+src/PyObfuscate.egg-info/entry_points.txt
+src/PyObfuscate.egg-info/top_level.txt
+src/lib/__init__.py
+src/lib/cli.py
+src/lib/defense.py
+src/lib/event.py
+src/lib/framework.py
+test/test_cli.py

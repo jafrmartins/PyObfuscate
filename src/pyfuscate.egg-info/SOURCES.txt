@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/lib/__init__.py
+src/lib/cli.py
+src/lib/defense.py
+src/lib/event.py
+src/lib/framework.py
+src/pyfuscate.egg-info/PKG-INFO
+src/pyfuscate.egg-info/SOURCES.txt
+src/pyfuscate.egg-info/dependency_links.txt
+src/pyfuscate.egg-info/entry_points.txt
+src/pyfuscate.egg-info/top_level.txt
+test/test_cli.py
