@@ -59,6 +59,9 @@ def cli():
 
         message=args['msg'].split(" ")
 
+        if len(message) < 3:
+            raise Exception("The message must contain at least 3 words")
+
         encrypt_file(fp, fd, varnames=message, cyphers=cyphers, iterations=6, lock=args['lock'])
 
 if __name__ == '__main__':
