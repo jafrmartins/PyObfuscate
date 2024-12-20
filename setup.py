@@ -15,7 +15,7 @@ setuptools.setup(
     package_dir={'': 'src'},
     entry_points={
         'console_scripts': [
-            'pyobfuscate=PyObfuscate.lib.cli:cli',
+            'pyobfuscate=PySimpleObfuscate.lib.cli:cli',
         ],
     },
     include_package_data=True,
